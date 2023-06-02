@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  box-shadow: 10px 1px 10px 15px rgba(0, 0, 0, 0.616);
+}
+
+.navbar-brand {
+  font-weight: 500;
+}
+
+/* MAIN */
+
+.title-page {
+  background-image: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 3;
+}
+
+.title-text{
+  width: 40%;
+  text-align: left;
+  margin: 70px;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+.products-menu-container{
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/burger\ restaurant.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-container {
+  background-color: white;
+  height: 50px;
+  width: 50%;
+  margin-bottom: 50px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.486);
+}
+
+.btn-container button{
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.products-menu{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.card {
+  margin: 20px;
+}
+
+.card:hover{
+  background-color: rgb(204, 204, 204);
+  transition: 0.2s;
+}
+
+.card img {
+  height: 200px;
+}
+
+/* CARRITO */
+
+#carrito {
+  background-color: rgb(255, 174, 0);
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
+}
+
+#carrito img {
+  width: 60px;
+  height: 60px;
+}
+
+.carrito-number {
+  background-color: red;
+  color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: -1px;
+  right: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrito-number p {
+  margin: 0;
+}
+
+.emptyCarr {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.offcanvas-header {
+  background-image: url("../img/burned\ wood\ wallpaper.png");
+  color: white;
+  text-transform: uppercase;
+}
+
+.offcanvas-body {
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(147,147,147,1) 100%);
+}
+
+.offcanvas-end {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+}
+
+.offcanvas-end button {
+  margin: 5px;
+}
+
+.total-price {
+  margin: 10px;
+}
+
+.carProductCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.87);
+  margin: 5px 0px;
+  border-radius: 10px;
+  color: white;
+}
+
+.carProductCard img {
+  height: 100px;
+  width: 120px;
+}
+
+.card-content{
+  display: flex;
+}
+
+.car-card-info {
+  display: flex;
+  align-items: center;
+}
+
+.car-card-info button {
+  height: 20px;
+  width: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.car-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 10px;
+}
+
+.car-text p{
+  margin: 0;
+}
+
+/* MODAL */
+
+.modal-header {
+  background-image: url("../img/burned\ wood\ wallpaper.png");
+  color: white;
+}
+
+.modal-body{
+  background-color: rgb(189, 189, 189);
+}
+
+form {
+  padding-top: 10px;
+}
+
+/* FOOTER */
+
+footer {
+  padding: 50px;
+  height: 300px;
+  background-image: url("../img/burned\ wood\ wallpaper.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer div {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}

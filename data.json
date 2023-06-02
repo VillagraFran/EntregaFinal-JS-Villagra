@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "cantidad": 1,
+        "img":"https://www.cardamomo.news/__export/1602724862579/sites/debate/img/2020/10/14/disexo_sin_txtulo_x3x.jpg_1635092770.jpg", 
+        "name":"hamburguesa clasica", 
+        "price":1200
+    },
+    {
+        "id": 2,
+        "cantidad": 1,
+        "img":"https://adrianacotte.com/wp-content/uploads/2021/05/hamburguesa01.jpeg", 
+        "name":"hamburguesa cheddar", 
+        "price":1200
+    },
+    {
+        "id": 3,
+        "cantidad": 1,
+        "img":"https://assets.unileversolutions.com/recipes-v2/232001.jpg", 
+        "name":"hamburguesa bacon", 
+        "price":1400
+    },
+    {
+        "id": 4,
+        "cantidad": 1,
+        "img":"https://truffle-assets.tastemadecontent.net/41c68cac-lomito_l_thumb.jpg", 
+        "name":"lomito clasico", 
+        "price":1600
+    },
+    {
+        "id": 5,
+        "cantidad": 1,
+        "img":"https://cdn.pedix.app/hTMCMaqGIP5KKMh7zARW/products/1622944704259.png?size=250x250", 
+        "name":"lomito premium", 
+        "price":1800
+    },
+    {
+        "id": 6,
+        "cantidad": 1,
+        "img":"https://scontent.fcor15-1.fna.fbcdn.net/v/t1.6435-9/141844953_242217384009562_3004967634108318305_n.jpg?stp=cp0_dst-jpg_e15_p320x320_q65&_nc_cat=107&ccb=1-7&_nc_sid=9e2e56&_nc_ohc=RjtCwhTqcowAX9QPw-T&_nc_ht=scontent.fcor15-1.fna&oh=00_AfCCvkj01kszgt2aO7Fxf6i49SnMFAPLH1JOYMIHTWeOBA&oe=648A1901", 
+        "name":"lomito palmito", 
+        "price":1700
+    },
+    {
+        "id": 7,
+        "cantidad": 1,
+        "img":"https://media-cdn.tripadvisor.com/media/photo-s/0e/0a/27/05/pizza-especial-salsa.jpg", 
+        "name":"pizza especial", 
+        "price":1600
+    }    ,
+    {
+        "id": 8,
+        "cantidad": 1,
+        "img":"https://sivarious.com/wp-content/uploads/2021/03/pizza-napolitana-3.jpg", 
+        "name":"pizza napolitana", 
+        "price":1600
+    },
+    {
+        "id": 9,
+        "cantidad": 1,
+        "img":"https://img.freepik.com/fotos-premium/pizza-corazones-palmito-campana_727023-60.jpg?w=2000", 
+        "name":"pizza con palmito", 
+        "price":1700
+    }
+]
